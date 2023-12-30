@@ -1,4 +1,4 @@
-// Toogle class active
+// Toogle class active untuk hamburger menu
 const navbarNav = document.querySelector(".navbar-nav");
 
 // Ketika hamburger menu di klik
@@ -14,3 +14,6 @@ document.addEventListener("click", function (e) {
     navbarNav.classList.remove("active");
   }
 });
+
+// Toggle class active untuk search form
+const searchForm = document.searchForm(".search-form");
