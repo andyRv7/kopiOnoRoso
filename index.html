@@ -247,8 +247,9 @@
 
       <div class="row">
         <!-- <template x-for="(item, index) in items" x-key="index"> -->
-        <div class="product-card">
-          <!-- <div class="product-icons">
+        <template x-for="(item, index) in items" :key="index">
+          <div class="product-card">
+            <!-- <div class="product-icons">
               <a href="#" @click.prevent="$store.cart.add(item)">
                 <svg
                   width="24"
@@ -276,15 +277,15 @@
                 </svg>
               </a>
             </div> -->
-          <div class="product-image" id="product-image">
-            <img
-              src="img/products/1.1.png"
-              alt="Produk 1"
-              class="product-image-img"
-            />
-            <!-- <img :src="`img/products/${item.img}`" :alt="item.name" /> -->
-          </div>
-          <!-- <div class="product-content">
+            <div class="product-image" id="product-image">
+              <img
+                src="img/products/1.1.png"
+                alt="Produk 1"
+                class="product-image-img"
+              />
+              <!-- <img :src="`img/products/${item.img}`" :alt="item.name" /> -->
+            </div>
+            <!-- <div class="product-content">
               <h3 x-text="item.name"></h3>
               <div class="product-stars">
                 <svg
@@ -347,8 +348,8 @@
                 <span x-text="rupiah(item.price)"></span>
               </div>
             </div> -->
-        </div>
-        <!-- </template> -->
+          </div>
+        </template>
       </div>
     </section>
     <!-- Produk Section End -->
