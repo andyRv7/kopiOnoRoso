@@ -4,7 +4,7 @@ document.addEventListener("alpine:init", () => {
       {
         id: 1,
         name: "Earlybird Coffee",
-        img: "1.jpg",
+        img: "1.1.png",
         price: 20000,
       },
       {
