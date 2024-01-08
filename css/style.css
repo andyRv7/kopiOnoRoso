@@ -814,9 +814,13 @@ footer .credit a {
     font-size: 1.6rem;
   }
 
+  /* =================================================================== */
+
   .menu p {
     font-size: 1.2rem;
   }
+
+  /* =================================================================== */
 
   .contact .row {
     flex-wrap: wrap;
@@ -836,12 +840,12 @@ footer .credit a {
 }
 
 /* Mobile Phone */
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   html {
     font-size: 55%;
   }
 
-  .products .product-image {
+  /* .products .product-image {
     width: 100%;
-  }
+  } */
 }
