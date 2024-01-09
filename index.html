@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="End">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -246,8 +246,8 @@
       </p>
 
       <div class="row">
-        <!-- <template x-for="(item, index) in items" x-key="index"> -->
-        <template x-for="(item, index) in items" :key="index">
+        <template x-for="(item, index) in items" x-key="index">
+          <!-- <template x-for="(item, index) in items" :key="index"> -->
           <div class="product-card">
             <!-- <div class="product-icons">
               <a href="#" @click.prevent="$store.cart.add(item)">
@@ -278,11 +278,7 @@
               </a>
             </div> -->
             <div class="product-image" id="product-image">
-              <img
-                src="img/products/1.1.png"
-                alt="Produk 1"
-                class="product-image-img"
-              />
+              <img src="img/products/1.1.png" alt="Produk 1" />
               <!-- <img :src="`img/products/${item.img}`" :alt="item.name" /> -->
             </div>
             <!-- <div class="product-content">
